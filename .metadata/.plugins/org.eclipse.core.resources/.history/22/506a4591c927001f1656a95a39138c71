@@ -1,0 +1,7 @@
+package com.ureca.school;
+
+public class ManagerImpl {
+	private Person[] pa;
+	private int index;
+	
+}

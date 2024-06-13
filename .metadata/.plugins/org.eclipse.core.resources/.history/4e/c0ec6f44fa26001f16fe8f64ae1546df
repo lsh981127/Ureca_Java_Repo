@@ -1,0 +1,24 @@
+package com.ureca.day1;
+
+import java.util.Scanner;
+
+public class MultipleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("단(2 ~ 9)? ");
+		int num = sc.nextInt();
+		int i = 1;
+		while (i <= 9) {	
+			System.out.printf("%d X %d = &d\n", num, i, num * i);
+			i++;
+		}
+		
+	}
+
+}
+
+

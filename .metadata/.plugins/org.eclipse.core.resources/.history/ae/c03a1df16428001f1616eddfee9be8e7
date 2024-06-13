@@ -1,0 +1,15 @@
+package com.ureca.day3;
+
+public class Finaltest {
+	public static final int i = 11;
+	public static final int j = 11;
+	public static final int k = 11;
+	public static final int l = 11;
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

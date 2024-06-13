@@ -1,0 +1,24 @@
+package com.ureca.school;
+
+public class Student{
+	public String name;
+	public int age;
+	public int stuId;
+	
+	// 접근 지정자, default는 package에서만 사용 가능
+	// public protected deault(package) private
+	// 4가지 있음
+	
+	// 생성자가 없으면 컴파일러가 이런 default 생성자를 알아서 생성하고 진행
+	public Student() {}
+	
+	public void printAll() {
+		// 기본적으로 this. 은 내장되어 있음. 없어도 이미 this인것을 알긴 한다.
+		System.out.println(name+"\t"+age + "\t" + stuId);
+		System.out.println("");
+		
+		
+	}
+	
+	
+}

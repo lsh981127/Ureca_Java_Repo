@@ -1,0 +1,32 @@
+package com.ureca.day1;
+
+public class Promotion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 11;
+		long l = 12L;
+		float f = 1.2f;
+		double d = 3.14;
+		
+		int j = 'A';
+		float f1 = 123L;
+		
+		byte b5 = 128; // byte 범위를 초과했기에 안된다~
+		
+		
+		int h = (int)3.14;  
+		
+		System.out.printf("%.2f\n", 123.456);   // 둘다 \나 % 개행문자
+		System.out.printf("%.2f%n", 123.456);
+		System.out.printf("%.2f %% \n", 123.456);   // 소수점 2번재 자리에서 반올림해라
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

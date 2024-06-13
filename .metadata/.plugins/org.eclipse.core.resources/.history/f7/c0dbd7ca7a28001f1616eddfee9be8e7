@@ -1,0 +1,59 @@
+package com.ureca.day3;
+
+import java.io.Serializable;
+import java.rmi.Remote;
+
+
+class A {
+	
+}
+
+class B {
+	
+}
+
+abstract class Pet extends A implements Serializable, Remote {
+	private String name;
+	
+	public Pet(String name) {
+		setName(name);
+	}
+	
+	public Pet() {
+		setName("펫");
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	public abstract void speak();
+	
+}
+
+public class PetTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pet p = new Pet();  // 추상 클래스니까 객체 생성이 불가
+		
+		
+	}
+
+}
+
+/**
+ * abstract 클래스는 1개라도 abstract 메소드 있으면
+ * 
+ * 추상 클래스는 절대로 객체 생성이 불가능하다!!
+ * 
+ * 
+ * 
+ * 
+ */
+

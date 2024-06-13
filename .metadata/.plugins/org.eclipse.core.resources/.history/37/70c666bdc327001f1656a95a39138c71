@@ -1,0 +1,40 @@
+package com.ureca.school.test;
+
+import com.ureca.school.*;
+public class SchoolMain {
+
+	public static void main(String[] args) {
+		
+		
+		
+		// 다형성 배열
+		/*
+		 * int[] ia = new int[3]; ia[0] ='A';
+		 * 
+		 * Person[] pa = new Person[3]; pa[0] = new Student("홍길동", 20, 202401); pa[1] =
+		 * new Teacher("일강사", 30, "자바"); pa[2] = new Employee("일직원", 25, 'a');
+		 * for(Person p:pa) p.printAll();
+		 */
+		
+		
+		// 1 다형성
+		/*
+		 * // 다형성 int i = 'a'; // int 가 char 보다 크니까 자동으로 상속?이 된다. // 이걸 다형성이라고 부른다. 자동이도
+		 * 대입이 되는 것
+		 * 
+		 * 
+		 * Person p = new Student("Sean", 20, 579543); p.setName("SeanLee"); // 가능! => p
+		 * 객체는 Person 이니까 // p.setStuId(202488); // 불가능! => p 객체가 Student가 아니니까!
+		 * p.printAll(); // 가능, sub <- override <- 상속
+		 * 
+		 * 
+		 * if (p instanceof Student) { Student s = (Student) p; s.setStuId(202477); }
+		 * 
+		 * System.out.println(p instanceof Object); System.out.println(p instanceof
+		 * Person); System.out.println(p instanceof Student);
+		 */
+		
+		
+	}
+
+}

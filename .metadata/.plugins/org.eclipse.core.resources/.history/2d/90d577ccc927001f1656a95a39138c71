@@ -1,0 +1,18 @@
+package com.ureca.school;
+
+public class ManagerImpl {
+	private Person[] pa;
+	private int index;
+	
+	private ManagerImpl(int size) {
+		pa = new Person[size];
+		index = 0;
+	}
+
+	
+	public ManagerImpl(Person[] pa, int index) {
+		this(10);
+	}
+	
+	
+}

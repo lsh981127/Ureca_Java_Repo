@@ -1,0 +1,13 @@
+package com.ureca.school.test;
+
+import com.ureca.school.Student;
+
+public class SchoolTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Student s = new Student();
+			
+	}
+
+}

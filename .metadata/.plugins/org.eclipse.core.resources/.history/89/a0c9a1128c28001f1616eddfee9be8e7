@@ -1,0 +1,33 @@
+package com.ureca.day3;
+
+
+interface Run {
+	void go();
+	void stop();
+}
+
+class Car implements Run {
+
+	@Override
+	public void go() {
+		System.out.println("go");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("stop");
+	}
+	
+}
+
+public class AnonymousTest {
+	public static void main(String[] args) {
+		Run r1 = new Car();
+		r1.go();
+		System.out.println(r1.getClass().getName());
+		r1.stop();
+		
+
+	}
+
+}

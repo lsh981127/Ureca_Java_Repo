@@ -1,0 +1,41 @@
+package com.ureca.day3;
+
+
+
+class Count {
+	public static int si;
+	public int pi;
+	
+	
+	
+	static {   	// static 블럭
+		si = 1;
+		System.out.println("static{1} " + si);
+	}
+	
+	
+	public static int getSi(){   	// static 블럭
+		return si;
+	}
+	
+	static {   	// static 블럭
+		si = 2;
+		System.out.println("static{2} " + si);
+	}
+	
+	
+}
+
+public class StaticCount {
+	
+	static {
+		System.out.println("main보다 먼저 실행된다. 이 static이");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("main 실행");
+		System.out.println(Count.si);
+	}
+
+}

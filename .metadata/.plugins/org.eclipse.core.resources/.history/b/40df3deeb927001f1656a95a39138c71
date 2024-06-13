@@ -1,0 +1,17 @@
+package com.ureca.school;
+
+public class Teacher {
+	private String name;
+	private int age;
+	private String subj;
+	
+	public void printAll() {
+		// 기본적으로 this. 은 내장되어 있음. 없어도 이미 this인것을 알긴 한다.
+		System.out.println(name + "\t" + age + "\t" + subj);		
+		
+	}
+	
+	
+	
+	
+}

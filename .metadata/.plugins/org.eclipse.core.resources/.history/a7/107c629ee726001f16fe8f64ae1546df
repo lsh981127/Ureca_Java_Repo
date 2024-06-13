@@ -1,0 +1,19 @@
+package com.ureca.day1;
+
+import java.util.Scanner;
+
+public class ScannerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner sc = new Scanner(System.in);
+			
+			String name = sc.next();
+			int age = sc.nextInt();
+			double pi = sc.nextDouble();
+			char ch = sc.next().charAt(0);  // string으로 읽고 제일 앞 index를 가져오는 거야
+			
+			sc.close();
+	}
+
+}

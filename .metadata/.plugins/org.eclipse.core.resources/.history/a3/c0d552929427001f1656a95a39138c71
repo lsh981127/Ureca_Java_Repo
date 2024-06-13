@@ -1,0 +1,11 @@
+package com.ureca.day2;
+
+public class CopyofTest {
+
+	public static void main(String[] args) {
+		int[] ia = {90, 80, 100};
+		
+		
+	}
+
+}

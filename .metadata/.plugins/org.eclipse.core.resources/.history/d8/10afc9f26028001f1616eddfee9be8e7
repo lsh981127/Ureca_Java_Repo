@@ -1,0 +1,21 @@
+package com.ureca.day3;
+
+
+
+class Count {
+	public static int si;
+	public int pi;
+	
+	static {   	// static 블럭
+		
+	}
+}
+
+public class StaticCount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

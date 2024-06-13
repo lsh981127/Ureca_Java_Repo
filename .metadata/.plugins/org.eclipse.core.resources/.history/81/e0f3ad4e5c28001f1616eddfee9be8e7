@@ -1,0 +1,19 @@
+package com.ureca.day2;
+
+public class OverLoadTest {
+	public int add(int x, int y) {
+		System.out.println("public int add(int " + x + ", int " + y + ")");
+		return x+y;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		OverLoadTest o = new OverLoadTest();
+		
+		System.out.println(o.add(11, 12));
+		// 에러가 발생한다. Main은 Static 이기에 객체를 생성해서 넣어줘야 가틍하다.
+	}
+
+}

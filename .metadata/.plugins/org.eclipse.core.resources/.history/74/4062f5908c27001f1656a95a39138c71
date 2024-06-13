@@ -1,0 +1,25 @@
+package com.ureca.day2;
+
+public class Array2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 선언
+		int[][] array2;
+		/*
+		 * 이렇게도 선언이 가능하다
+		 * int ia[][]; 
+		 * int[] ia[];
+		 */
+				
+		// 생성
+		array2 = new int[3][3];
+		
+		/*
+		 * ia = new int[3][]; 
+		 * 1차원 배열 3개 가지는 2차원 배열
+		 */				
+	}
+
+}

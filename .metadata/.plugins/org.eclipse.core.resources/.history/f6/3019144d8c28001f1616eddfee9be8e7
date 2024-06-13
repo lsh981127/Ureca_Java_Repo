@@ -1,0 +1,37 @@
+package com.ureca.day3;
+
+
+interface Run {
+	void go();
+	void stop();
+}
+
+
+public class AnonymousTest {
+	static private class Car implements Run {		// 중첩 클래스
+		 
+		@Override
+		public void go() {
+			System.out.println("go");
+		}
+		
+		@Override
+		public void stop() {
+			System.out.println("stop");
+		}
+		
+	}
+	// 왜 static을 넣어줘야 동작하는 거지??
+	
+	
+	public static void main(String[] args) {
+		Run r1 = new Car();
+		r1.go();
+		System.out.println(r1.getClass().getName());
+		System.out.println();
+		r1.stop();
+		
+
+	}
+
+}

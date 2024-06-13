@@ -1,0 +1,44 @@
+package com.ureca.day3;
+
+import java.io.Serializable;
+import java.rmi.Remote;
+
+public class PetTest {
+
+	class A {
+		
+	}
+	
+	class B {
+		
+	}
+	
+	class Pet extends A implements Serializable, Remote{
+		private String name;
+		
+		public Pet(String name) {
+			setName(name);
+		}
+		
+		public Pet() {
+			setName("펫");
+		}
+		
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pet p = new Pet();
+		
+	}
+
+}

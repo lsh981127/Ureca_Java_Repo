@@ -1,0 +1,12 @@
+package com.ureca.day2;
+
+public class OverLoadTest {
+	public int add(int x, int y) {
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

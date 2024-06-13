@@ -1,0 +1,49 @@
+package com.ureca.school;
+
+public class Person {
+
+	protected String name = "아무개";
+	protected int age;
+
+	public Person(String name, int age) {
+		// super(); 컴파일러가 알아서 super를 넣어버령
+		setName(name);
+		setAge(age);
+	}
+	
+	public Person() {
+		setName("무이름");
+		setAge(1);
+	}
+	
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		checkAge(age);
+	}
+
+	private void checkAge(int age) {
+		if (age < 1 || age > 99){
+			System.out.println("Invalid Age(1 ~ 99)");
+			System.exit(0);
+		}else {
+			this.age = age;
+		}
+	}
+
+	public void printAll() {
+		System.out.print(getName() + "\t" + getAge());		
+	
+	}
+}

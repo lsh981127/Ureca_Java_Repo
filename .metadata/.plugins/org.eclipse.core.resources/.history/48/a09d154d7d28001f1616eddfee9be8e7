@@ -1,0 +1,23 @@
+package com.ureca.day3;
+
+interface IA {
+	
+}
+
+interface IB {
+	
+}
+
+interface IFlyer extends IA, IB{
+	i = 11;
+	
+}
+
+public class FlyerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

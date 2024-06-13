@@ -1,0 +1,22 @@
+package com.ureca.school;
+
+public class PetTest {
+
+	class A {
+		
+	}
+	
+	class B {
+		
+	}
+	
+	class Pet extends A {
+		]
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
