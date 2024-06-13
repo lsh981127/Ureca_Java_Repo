@@ -1,0 +1,15 @@
+package com.ureca.day4;
+
+
+record Member(String id, String name, int age) {
+	
+}
+
+public class RecordTest {
+
+	public static void main(String[] args) {
+		Member m1 = new Member("winter", "눈송이", 25);
+
+	}
+
+}

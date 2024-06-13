@@ -1,0 +1,13 @@
+package com.ureca.school;
+
+public class ListArray {
+
+	public static void main(String[] args) {
+		int[] ia = new int[3];
+		ia[0] = 'a';
+		System.out.println(ia);
+		
+
+	}
+
+}

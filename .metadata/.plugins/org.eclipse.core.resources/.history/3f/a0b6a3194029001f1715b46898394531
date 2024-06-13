@@ -1,0 +1,22 @@
+package com.ureca.day4;
+
+
+record Member(String id, String name, int age) {
+	
+}
+
+public class RecordTest {
+
+	public static void main(String[] args) {
+		Member m1 = new Member("winter", "눈송이", 25);
+		System.out.println(m1.id() + m1.name() + m1.age());
+		
+		Member m2 = new Member("winter2", "눈송이2", 25);
+		System.out.println(m2.id() + m2.name() + m2.age());
+		
+		
+		
+		
+	}
+
+}

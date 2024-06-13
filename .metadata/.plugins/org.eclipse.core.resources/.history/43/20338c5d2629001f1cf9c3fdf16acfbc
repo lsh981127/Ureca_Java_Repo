@@ -1,0 +1,65 @@
+package com.ureca.day4;
+
+import java.io.IOException;
+
+class MyException extends Exception {
+
+	public MyException() {
+		this("MyException");
+	}
+
+	public MyException(String message) {
+		super(message);
+		
+	}
+	
+}
+
+
+
+public class ExceptionTest {
+
+	public static void main(String[] args) throws Exception {
+		// 자바 코테에서는 그냥 throws Exception으로 모든 예외 처리를 그냥 한번에 하는 거야.
+		System.out.println("Start");
+		
+		
+		
+		
+		/**
+		 * 1. 로컬 변수는 초기화 해야한다 => 안하면 컴파일 에러
+		 * 2. 변수가 null 이고 출력하면 => NullPointerException
+		 */
+		
+		try {
+			String s=null;
+//			System.out.println(s.length());		// NullPointerException
+//			System.in.read();				// IOException
+			
+//			int i = 10 / 0;
+			if (true) return;
+			System.out.println("Try문이라 출력");
+			
+		} catch (NullPointerException e) {
+			System.out.println("NullPointerException" + e.getMessage());
+		} catch (ArithmeticException e) {					// ArithmeticException 발생한 경우
+			System.out.println("ArithmeticException" + e.getMessage());
+		} catch (RuntimeException e) {					// RuntimeException 발생한 경우
+			System.out.println("RuntimeException" + e.getMessage());
+		} catch (Exception e) {					// Exception 발생한 경우
+			System.out.println("Exception" + e.getMessage());
+		} catch(Throwable e) {					// Throwable 발생한 경우
+			System.out.println("Throwable" + e.getMessage());
+		} finally {								// finally는 앞에서 return을 해도 실행이 된다. System.exit(0)만 finally의 실행을 막는다.
+			System.out.println("finally");
+		}
+		
+		System.out.println("End");
+		
+		/**
+		 * throwable 애들 실행되는 순간, 그 뒤에 코드 뭐가 있던 간, 그냥 모든 게 Stop된다.
+		 * 
+		 */
+	}
+
+}

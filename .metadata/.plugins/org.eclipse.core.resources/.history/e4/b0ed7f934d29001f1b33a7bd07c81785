@@ -1,0 +1,72 @@
+package com.ureca.day4;
+
+import java.util.*;
+
+public class ListTest {
+
+	public static void main(String[] args) {
+		
+		/**
+		 * Arraylist는 가변?적인 경우에 쓴다?
+		 */
+		
+		List<String> list = new ArrayList<>();  // String만 들어갈 수 있어 이제
+		list.add("이승훈");
+		list.add("졸립다");
+		System.out.println(list.indexOf("졸립다"));
+		System.out.println(list);
+		System.out.println();
+		
+		list.add("집가자");
+		
+		System.out.println(list.indexOf("집가자"));
+		System.out.println(list);
+		System.out.println();
+		
+		
+		list.add("4일차");
+		System.out.println(list.get(2));
+		System.out.println();
+		
+		list.set(2, "손오공");
+		System.out.println(list);
+		list.remove(1);
+		System.out.println(list);
+		
+		for(int i=0; i<list.size(); i++) {    // 코테 방식
+			System.out.println(list.get(i));
+		}
+		System.out.println("   ");
+
+		for(String s:list) System.out.println(s);    // 그냥 편한 방식
+		System.out.println("   ");
+		
+		Iterator<String> it = list.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		System.out.println();
+		
+		
+		
+//		List list = new ArrayList();
+		/*
+		 * List list = new LinkedList();
+		 * 
+		 * list.add(new Object()); System.out.println(list.size()+" "+list.toString());
+		 * 
+		 * list.add("이승훈"); System.out.println(list.size()+" "+list.toString());
+		 * 
+		 * list.add(3.14); System.out.println(list.size()+" "+list.toString());
+		 * 
+		 * 
+		 * list.remove("이승훈"); System.out.println(list.size()+" "+list.toString());
+		 * 
+		 * list.set(1, 3.141592);
+		 * 
+		 * for(Object o:list) System.out.println(o);
+		 */
+		
+	}
+
+}

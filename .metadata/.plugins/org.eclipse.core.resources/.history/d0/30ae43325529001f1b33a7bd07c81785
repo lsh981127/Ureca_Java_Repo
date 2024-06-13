@@ -1,0 +1,30 @@
+package com.ureca.day4;
+import java.util.*;
+public class SetTest {
+
+	public static void main(String[] args) {
+			
+		// 비순서
+		Set<String> s= new HashSet<>();
+		s.add("이승훈");
+		s.add("맥북 에어 M2");
+		s.add("맥북 에어 M3");
+		System.out.println(s);
+		s.add("이승훈");
+		System.out.println(s);
+		
+		// 순서
+		s = new LinkedHashSet<>();
+//		s = new TreeSet<>();
+		s.add("이승훈");
+		s.add("맥북 에어 M2");
+		s.add("맥북 에어 M3");
+		System.out.println(s);
+		s.add("이승훈");
+		System.out.println(s);
+		
+		
+		
+	}
+
+}

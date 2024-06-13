@@ -1,0 +1,67 @@
+package com.ureca.school;
+
+import java.util.*;
+public class ManagerMap implements IManager {
+
+	private Map<String, Person> pa;
+	
+	// ArrayList 는 속도가 느리지만 가변적 => 코테에서 안쓴다
+	// 코테에서는 1,2차원 배열로 하는 거고
+	// 만약 길이가 안정해져있으면 Arraylist로 하는 게 좋고
+	
+	
+	
+	// 2  싱글톤 
+	private static IManager instance = new ManagerMap();
+	
+	// 1
+	private ManagerMap(int size) {
+		pa = new HashMap<>(size);		
+	}
+	
+	private ManagerMap() {
+		this(10);		
+	}
+	
+	
+	// 3
+	public static IManager getInstance() {
+		return instance;
+	}
+	
+	@Override
+	public void add(Person p) {
+		pa.putIfAbsent(p.getName(), p);
+	}
+
+	@Override
+	public Person[] search() {
+		return pa.values().toArray(new Person[0]);
+	}
+
+	@Override
+	public Person search(String name) {
+		return pa.get(name);
+	}
+
+	@Override
+	public void update(Person p) throws NotFoundException {
+		Person t = search(p.getName());
+		pa.set(pa.indexOf(t), p);
+
+	}
+
+	@Override
+	public void delete(String name) throws NotFoundException {
+		Person t = search(name);
+		pa.remove(t);
+
+	}
+
+	@Override
+	public void printAll() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

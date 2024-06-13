@@ -1,0 +1,14 @@
+package com.ureca.school;
+
+public class NotFoundException extends Exception{
+	
+	
+	public NotFoundException() {
+		this("NotFound Exception");
+	}
+	
+	public NotFoundException(String message) {
+		
+	}
+
+}

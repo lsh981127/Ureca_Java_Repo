@@ -1,0 +1,14 @@
+package com.ureca.day4;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		System.out.println("Start");
+		
+		String s=null;
+		System.out.println(s.length());
+		System.out.println("End");
+
+	}
+
+}

@@ -1,0 +1,69 @@
+package com.ureca.school;
+
+import java.awt.Image;
+import java.util.*;
+public class ManagerList implements IManager {
+
+	private List<Person> pa;
+	
+	
+	
+	
+	// 2  싱글톤 
+	private static IManager instance = new ManagerList();
+	
+	// 1
+	private ManagerList(int size) {
+		pa = new ArrayList<>(size);		
+	}
+	
+	private ManagerList() {
+		this(10);		
+	}
+	
+	
+	// 3
+	public static IManager getInstance() {
+		return instance;
+	}
+	
+	
+	
+	
+	@Override
+	public void add(Person p) throws DuplicatedException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Person[] search() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Person search(String name) throws NotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(Person p) throws NotFoundException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(String name) throws NotFoundException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void printAll() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

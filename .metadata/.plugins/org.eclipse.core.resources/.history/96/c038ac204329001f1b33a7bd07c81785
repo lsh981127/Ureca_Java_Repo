@@ -1,0 +1,17 @@
+package com.ureca.day4;
+
+
+class Member {
+	String id;
+	String name;
+	int age;
+	
+}
+
+public class LombokTest {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

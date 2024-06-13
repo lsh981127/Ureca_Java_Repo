@@ -1,0 +1,16 @@
+package com.ureca.day4;
+
+import java.util.*;
+
+public class ListTest {
+
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		list.add(new Object());
+		System.out.println(list.size()+" "+list.toString());
+		
+		System.out.println(list);
+
+	}
+
+}

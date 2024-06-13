@@ -1,0 +1,31 @@
+package com.ureca.day4;
+
+import java.io.IOException;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) throws Exception {
+		// 자바 코테에서는 그냥 throws Exception으로 모든 예외 처리를 그냥 한번에 하는 거야.
+		System.out.println("Start");
+		
+		String s=null;
+		
+		/**
+		 * 1. 로컬 변수는 초기화 해야한다 => 안하면 컴파일 에러
+		 * 2. 변수가 null 이고 출력하면 => NullPointerException
+		 */
+		
+		try {
+			System.out.println(s.length());		// NullPointerException
+			
+		//	System.in.read();					// IOException
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("End");
+
+	}
+
+}

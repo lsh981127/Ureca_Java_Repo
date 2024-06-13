@@ -1,0 +1,17 @@
+package com.ureca.school;
+import java.util.*;
+public class ListArray {
+
+	public static void main(String[] args) {
+		int[] ia = new int[3];
+		ia[0] = 'a';
+		System.out.println(ia);
+		System.out.println();
+		
+		List<Integer>[] la = new List[3];    // 1차원 Int list
+		
+		
+
+	}
+
+}

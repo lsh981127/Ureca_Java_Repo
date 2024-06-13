@@ -1,0 +1,29 @@
+package com.ureca.day4;
+
+
+
+
+class MyException extends Exception {
+
+	public MyException() {
+		this("MyException");
+	}
+
+	public MyException(String message) {
+		super(message);
+		
+	}
+	
+}
+
+
+
+
+public class MyException {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

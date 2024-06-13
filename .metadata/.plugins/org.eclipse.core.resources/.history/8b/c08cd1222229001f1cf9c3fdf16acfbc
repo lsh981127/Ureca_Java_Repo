@@ -1,0 +1,25 @@
+package com.ureca.day4;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		System.out.println("Start");
+		
+		String s=null;
+		
+		/**
+		 * 1. 로컬 변수는 초기화 해야한다 => 안하면 컴파일 에러
+		 * 2. 변수가 null 이고 출력하면 => NullPointerException
+		 */
+		
+		System.out.println(s.length());		// NullPointerException
+		
+		System.in.read();					//IOException
+		
+		
+		
+		System.out.println("End");
+
+	}
+
+}

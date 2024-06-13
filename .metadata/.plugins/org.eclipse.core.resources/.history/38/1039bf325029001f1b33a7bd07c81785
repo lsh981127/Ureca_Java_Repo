@@ -1,0 +1,76 @@
+package com.ureca.school;
+
+import java.awt.Image;
+import java.util.*;
+public class ManagerList implements IManager {
+
+	private List<Person> pa;
+	
+	
+	
+	
+	// 2  싱글톤 
+	private static IManager instance = new ManagerList();
+	
+	// 1
+	private ManagerList(int size) {
+		pa = new ArrayList<>(size);		
+	}
+	
+	private ManagerList() {
+		this(10);		
+	}
+	
+	
+	// 3
+	public static IManager getInstance() {
+		return instance;
+	}
+	
+	
+	
+	
+	@Override
+	public void add(Person p) throws DuplicatedException {
+		try {
+			search(p.getName());
+			throw new DuplicatedException(p.getName() + " 중복입니다.");
+		} catch (NotFoundException e) {
+			pa.add(p);
+		}
+
+	}
+
+	@Override
+	public Person[] search() {
+		return pa.toArray(new Person[0]);
+	}
+
+	@Override
+	public Person search(String name) throws NotFoundException {
+		for(Person p:pa) {
+			if(p.getName().equals(name)) return p;
+		}
+		throw new NotFoundException(name +" 없습니다.");
+	}
+
+	@Override
+	public void update(Person p) throws NotFoundException {
+		Person t = search(p.getName());
+		pa.set(pa.indexOf(t), p);
+
+	}
+
+	@Override
+	public void delete(String name) throws NotFoundException {
+		Person t = search(name);
+
+	}
+
+	@Override
+	public void printAll() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

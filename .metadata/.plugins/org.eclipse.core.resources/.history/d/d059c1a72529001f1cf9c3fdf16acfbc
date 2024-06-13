@@ -1,0 +1,20 @@
+package com.ureca.day4;
+
+
+
+
+class MyException() {
+	
+}
+
+
+
+
+public class MyException {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

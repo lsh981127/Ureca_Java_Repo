@@ -1,0 +1,29 @@
+package com.ureca.day4;
+
+
+
+
+class MyException extends Exception {
+
+	public MyException() {
+		this();
+	}
+
+	public MyException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+	
+}
+
+
+
+
+public class MyException {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.ureca.school;
+
+public class DuplicatedException {
+	public DuplicatedException() {
+		this("NotFound Exception");
+	}
+	
+	public DuplicatedException(String message) {
+		super(message);
+	}
+}
