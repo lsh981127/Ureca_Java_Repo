@@ -4,7 +4,10 @@
     <typeInfo handle="=school/src&lt;com.ureca.school{Student.java[Student" modifiers="67108865" timestamp="1718156539554"/>
     <typeInfo handle="=school/src&lt;com.ureca.school{Teacher.java[Teacher" modifiers="67108865" timestamp="1718154969960"/>
     <typeInfo handle="=school/src&lt;com.ureca.school{Employee.java[Employee" modifiers="67108865" timestamp="1718154969955"/>
-    <typeInfo handle="=school/src&lt;com.ureca.school{ManagerImpl.java[ManagerImpl" modifiers="1" timestamp="1718176754488"/>
-    <typeInfo handle="=school/src&lt;com.ureca.school{IManager.java[IManager" modifiers="513" timestamp="1718240625765"/>
-    <typeInfo handle="=school/src&lt;com.ureca.school.test{SchoolMain.java[SchoolMain" modifiers="1" timestamp="1718173202522"/>
+    <typeInfo handle="=school/src&lt;com.ureca.school{ManagerImpl.java[ManagerImpl" modifiers="1" timestamp="1718251236731"/>
+    <typeInfo handle="=school/src&lt;com.ureca.school.test{SchoolMain.java[SchoolMain" modifiers="1" timestamp="1718251227141"/>
+    <typeInfo handle="=school/C:\/URECA\/sts-4.22.1.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\/jre\/lib\/jrt-fs.jar`java.desktop=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.awt.image(ImageConsumer.class[ImageConsumer" modifiers="1537" timestamp="1717984826221"/>
+    <typeInfo handle="=school/src&lt;com.ureca.school{IManager.java[IManager" modifiers="513" timestamp="1718246559921"/>
+    <typeInfo handle="=school/src&lt;com.ureca.school{ManagerList.java[ManagerList" modifiers="1" timestamp="1718261082722"/>
+    <typeInfo handle="=school/src&lt;com.ureca.school{ManagerMap.java[ManagerMap" modifiers="1" timestamp="1718264730911"/>
 </typeInfoHistroy>
