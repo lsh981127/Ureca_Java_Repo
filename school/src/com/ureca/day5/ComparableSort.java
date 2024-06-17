@@ -1,4 +1,4 @@
-package com.ureaca.day5;
+package com.ureca.day5;
 
 import java.util.*;
 

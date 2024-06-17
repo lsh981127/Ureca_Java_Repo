@@ -1,4 +1,4 @@
-package com.ureaca.day5;
+package com.ureca.day5;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -34,7 +34,7 @@ public class FileCopy {
 		} catch (IOException e) {			// FileNotFoundException 예외가 발생하지만 IOException이 발생하기에 괜찮다.
 			System.out.println("IO 예외 발생");
 		}
-		
+			
 		
 	}
 
