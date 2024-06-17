@@ -9,7 +9,6 @@ public class BookDaoList implements BookDao {
 	
 	private List<Book> ba;
 	
-	
 	private static BookDao instance = new BookDaoList();
 	private BookDaoList() {
 		ba = new ArrayList<>();

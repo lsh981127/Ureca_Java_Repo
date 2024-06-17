@@ -11,7 +11,7 @@ public class Book {
 	private String num;
 	private String title;
 	private int price;
-
+ 
 //	public String getNum() {
 //		return num;
 //	}
