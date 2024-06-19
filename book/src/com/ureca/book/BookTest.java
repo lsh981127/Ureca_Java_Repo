@@ -1,16 +1,18 @@
 package com.ureca.book;
+import java.sql.SQLException;
 import java.util.*;
 
 import com.ureca.book.dao.BookDao;
 import com.ureca.book.dao.BookDaoImpl;
+import com.ureca.book.dao.BookDaoImpl2;
 import com.ureca.book.dao.BookDaoList;
 import com.ureca.book.dto.Book;
 public class BookTest {
 
-	public static void main(String[] args) {
-		//BookDao dao = BookDaoList.getInstance();
-
-		BookDao dao = BookDaoImpl.getInstance();
+	public static void main(String[] args) throws SQLException {
+//		BookDao dao = BookDaoList.getInstance();
+//		BookDao dao = BookDaoImpl.getInstance();
+		BookDao dao = BookDaoImpl2.getInstance();
 		
 		
 		

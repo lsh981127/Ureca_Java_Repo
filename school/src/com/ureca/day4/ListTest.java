@@ -12,6 +12,7 @@ public class ListTest {
 		
 //		List<String> list = new ArrayList<>();  // String만 들어갈 수 있어 이제
 		List<String> list = new LinkedList<>();
+		
 		list.add("이승훈");
 		list.add("졸립다");
 		System.out.println(list.indexOf("졸립다"));

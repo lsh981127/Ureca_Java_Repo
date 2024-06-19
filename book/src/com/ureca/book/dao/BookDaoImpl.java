@@ -32,6 +32,14 @@ public class BookDaoImpl implements BookDao{
 	}
 	
 	public static BookDao getInstance() {
+		/* if (instance == null) instance = new BookDaoImpl();
+		 * 만약 이 BookDaoImpl 을 자주 안쓴다면 초기 선언에 instance 를 null로 선언하고
+		 * private static BookDao instance = null;
+		 * getInstance에서 null 검사 뒤 객체 생성해주는 것이 좋다.
+		 * 
+		 * 
+		 * */
+		
 		return instance;
 	}
 	

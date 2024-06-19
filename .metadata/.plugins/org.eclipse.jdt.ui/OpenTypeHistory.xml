@@ -10,4 +10,15 @@
     <typeInfo handle="=school/src&lt;com.ureca.school{IManager.java[IManager" modifiers="513" timestamp="1718246559921"/>
     <typeInfo handle="=school/src&lt;com.ureca.school{ManagerList.java[ManagerList" modifiers="1" timestamp="1718265333816"/>
     <typeInfo handle="=school/src&lt;com.ureca.school{ManagerMap.java[ManagerMap" modifiers="1" timestamp="1718265242106"/>
+    <typeInfo handle="=book/src&lt;com.ureca.book.util{DBUtil.java[DBUtil" modifiers="1" timestamp="1718674909763"/>
+    <typeInfo handle="=book/src&lt;com.ureca.book.dto{Book.java[Book" modifiers="1" timestamp="1718601320111"/>
+    <typeInfo handle="=book/src&lt;com.ureca.book.dao{BookDao.java[BookDao" modifiers="513" timestamp="1718673443635"/>
+    <typeInfo handle="=book/C:\/URECA\/sts-4.22.1.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.lang(String.class[String" modifiers="49" timestamp="1717984826221"/>
+    <typeInfo handle="=book/src&lt;com.ureca.book{BookTest.java[BookTest" modifiers="1" timestamp="1718674861295"/>
+    <typeInfo handle="=book/src&lt;com.ureca.book.dao{BookDaoList.java[BookDaoList" modifiers="1" timestamp="1718688496257"/>
+    <typeInfo handle="=book/src&lt;com.ureca.book.dao{BookDaoImpl2.java[BookDaoImpl2" modifiers="1" timestamp="1718692669024"/>
+    <typeInfo handle="=jdbcbase/C:\/URECA\/sts-4.22.1.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\/jre\/lib\/jrt-fs.jar`java.sql=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.sql(Connection.class[Connection" modifiers="1537" timestamp="1717984826221"/>
+    <typeInfo handle="=jdbcbase/C:\/URECA\/sts-4.22.1.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.11.v20240426-1830\/jre\/lib\/jrt-fs.jar`java.sql=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.sql(Statement.class[Statement" modifiers="1537" timestamp="1717984826221"/>
+    <typeInfo handle="=jdbcbase/lib\/mysql-connector-j-8.4.0.jar&lt;com.mysql.cj.jdbc(StatementImpl.class[StatementImpl" modifiers="33" timestamp="1718602595645"/>
+    <typeInfo handle="=jdbcbase/lib\/mysql-connector-j-8.4.0.jar&lt;com.mysql.cj.jdbc(ConnectionImpl.class[ConnectionImpl" modifiers="33" timestamp="1718602595645"/>
 </typeInfoHistroy>
